@@ -8,7 +8,7 @@ from utils.util import mode
 from hparams import hparams as hps
 from torch.utils.data import DataLoader
 from utils.logger import Tacotron2Logger
-from utils.dataset import ljdataset, ljcollate
+from utils.dataset import TextMelDataset, TextMelCollate
 from model.model import Tacotron2, Tacotron2Loss
 np.random.seed(hps.seed)
 torch.manual_seed(hps.seed)

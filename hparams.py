@@ -31,8 +31,7 @@ class hparams:
 	is_cuda = True
 	pin_mem = True
 	n_workers = 8
-	prep = True
-	pth = 'lj-22k.pth'
+	load_mel = True
 	lr = 2e-3
 	betas = (0.9, 0.999)
 	eps = 1e-6
